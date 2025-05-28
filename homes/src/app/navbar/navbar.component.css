@@ -1,0 +1,11 @@
+.maincontainer {
+  display: flex;
+  height: 80px;
+  background-color: violet;
+  align-items: center;
+  box-shadow: 0px 7px 5px lightblue;
+}
+.imagecontainer {
+  width: 70px;
+  height: fit-content;
+}
