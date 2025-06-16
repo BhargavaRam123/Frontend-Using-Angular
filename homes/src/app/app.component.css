@@ -1,0 +1,12 @@
+.container {
+  background-color: red;
+  height: 100%;
+}
+.cardcontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  flex-wrap: wrap;
+  gap: 20px;
+}

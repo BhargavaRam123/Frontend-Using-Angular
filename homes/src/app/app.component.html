@@ -1,0 +1,7 @@
+<app-navbar></app-navbar>
+<div class="cardcontainer">
+  <app-houselocation
+    *ngFor="let housingLocation of housingLocationList"
+    [houseLocation]="housingLocation"
+  ></app-houselocation>
+</div>
