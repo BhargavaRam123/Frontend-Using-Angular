@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { CounterComponent } from './counter/counter.component';
+import { MemoizationComponent } from './memoization/memoization.component';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, CounterComponent, MemoizationComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'my-angular-app';
+  title = 'day4angular';
 }
